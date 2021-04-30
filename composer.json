@@ -1,0 +1,14 @@
+{
+ "name":"level3/books",
+ "description":"---",
+ "require": {
+  "illuminate/database": "^8.32",
+  "robmorgan/phinx": "^0.12.6"
+ },
+ "autoload": {
+  "psr-4" : {
+ "Controllers\\": "dbcontrollers/",
+ "Models\\": "dbmodels/"
+  }
+ }
+}
