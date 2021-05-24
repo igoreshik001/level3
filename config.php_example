@@ -1,0 +1,13 @@
+<?php 
+
+
+define("OFFSET_ADMIN_PAGE", 5);
+define("OFFSET_BOOKS_PAGE", 12);
+
+define("DBDRIVER","mysql");
+define("DBHOST","localhost");
+define("DBNAME","booksdb");
+define("DBUSER","root");
+define("DBPASS","");
+define("DBPORT",3306);
+?>
